@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login-demon slayer</title>
+
+    <link rel="stylesheet" href="contact.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src=""></a>
+            <div class="nav-links" id="navlinks">
+
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="characters.html">CHARACTERS</a></li>
+                    <li><a href="enemy.html">ENEMY</a></li>
+                    <li><a href="gallery.html">GALLERY</a></li>
+                    <li><a href="contact.html">LOGIN</a></li>
+                </ul>
+            </div>
+
+        </nav>
+
+        <div class="text-box">
+       
+            <div class="wtf">
+                <div class="form-box">
+                    <div class="button-box">
+                        <div id="btn"></div>
+                        <button type="button" class="toggle-btn" onclick="login()">Log In</button>
+                        <button type="button" class="toggle-btn" onclick="register()">Regester</button>
+                    </div>
+                    <div class="social-icons">
+                        <img src="slayer-img/fb.png" alt="">
+                        <img src="slayer-img/tw.png" alt="">
+                        <img src="slayer-img/gp.png" alt="">
+                    </div>
+                    <form id="login" class="input-group">
+                        <input type="text" class="input-field" placeholder="User Id" required>
+                        <input type="text" class="input-field" placeholder="Enter Password" required>
+                        <input type="checkbox" class="chech-box"><span>Remamber Password</span>
+                        <button type="submit" class="submit-btn">Log In</button>
+                    </form>
+                    <form id="register" class="input-group">
+                        <input type="text" class="input-field" placeholder="User Id" required>
+                        <input type="email" class="input-field" placeholder="Email Id" required>
+                        <input type="text" class="input-field" placeholder="Enter Password" required>
+                        <input type="checkbox" class="chech-box"><span>I agree to the terms & conditions</span>
+                        <button type="submit" class="submit-btn">Register</button>
+                    </form>
+
+                    
+
+                </div>
+                
+                
+            </div>
+
+
+        </div>
+    </section>
+
+  
+
+
+        <script>
+            var x = ducument.getElementById("login");
+            var y = ducument.getElementById("register");
+            var z = ducument.getElementById("btn");
+
+            function register(){
+                x.style.left ="-400px";
+                y.style.left ="50px";
+                z.style.left ="110px";
+            }
+
+            function register(){
+                x.style.left ="50px";
+                y.style.left ="450px";
+                z.style.left ="0px";
+            }
+
+
+        </script>
+
+
+    </body>
+
+</html>
